@@ -86,13 +86,13 @@ users["Erik"][:pets].push({
 p users["Erik"][:pets]
 
 add_mark = {"Mark" => {
-    :twitter => "@sparkzilla",
-    :lottery_numbers => [1,2,3,4,5],
-    :home_town => "Glasgow",
-    :pets => [
+    twitter: "@sparkzilla",
+    lottery_numbers: [1,2,3,4,5],
+    home_town: "Glasgow",
+    pets: [
       {
-        :name => "Zoro",
-        :species => "cat"
+        name: "Zoro",
+        species: "cat"
       }
     ]
   }
