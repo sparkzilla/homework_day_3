@@ -51,8 +51,6 @@ p united_kingdom.each { |h| p "#{h[:name]}"}
 
 pop_total =0
 united_kingdom.each do |h|
-
 pop_total += h[:population]
-
 end
 p pop_total
